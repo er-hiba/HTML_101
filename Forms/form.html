@@ -1,1 +1,26 @@
+<html>
+    <head>
+        <title> Validation des formulaires</title>
+        <meta charset=""utf-8">
+    </head>
 
+    <style>
+        label{display: inline-block;min-width: 200px;}
+    </style>
+
+<body>
+    <h1>Validation des formulaires en HTML</h1>
+
+    <form method="post" >
+        <label for='prenom'>Entrez votre pénom svp: </label>
+        <input type="text" name="prenom" id="prenom" maxlength="20" required><br>
+        <label for="mail">Entrez votre mail: </label>
+        <input type="email" name="mail" id="mail" required><br>
+        <label for="tel">Numéro de téléphone: </label>
+        <input type="tel" name="tel" id="tel" required><br>
+        <br>
+        <input type="submit" value="Valider">
+        </form>
+</body>
+
+</html>
