@@ -1,0 +1,36 @@
+<html>
+
+<body>
+    <h1>Inscrivez vous ... </h1>
+    <div style="margin-left: 5%;">
+    <form method="post" >
+        <label for='nom'>Votre nom: </label>
+        <input type="text" name="nom" id="nom" maxlength="20" required><br>
+        <label for='prenom'>Votre prénom: </label>
+        <input type="text" name="prenom" id="prenom" maxlength="20" required><br>
+        <label for='age'>Votre age: </label>
+        <input type="number" name="age" id="age" maxlength="20" required><br>
+        Votre sexe:
+        <input type="radio" id="male" name="sexe" value="Masculin">
+        <label for="male">Masculin</label>
+        <input type="radio" id="female" name="sexe" value="Féminin">
+        <label for="female">Féminin</label><br>
+        Vos diplomes:
+        <input type="checkbox" id="diplome1" name="diplome1" value="Bac">
+        <label for="diplome1">Bac</label>
+        <input type="checkbox" id="diplome2" name="diplome2" value="Licence">
+        <label for="diplome2">Licence</label>
+        <input type="checkbox" id="diplome3" name="diplome3" value="Master">
+        <label for="diplome3">Master</label><br>
+        Votre stage:
+        <select id="smia" name="smia">
+            <option value="Developpement">Developpement</option>
+            <option value="Gestion">Gestion</option>
+            <option value="Reseau">Reseau</option>
+            <option value="Bureautique">Bureautique</option>
+        </select> <br> <br>
+        <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
